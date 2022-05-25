@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<simulation name="milosar">
+    <parameters>
+        <starttime>0</starttime>
+        <endtime>1</endtime>
+        <rate>125000000.0</rate>
+        <adc_bits>14</adc_bits>
+        <oversample>1</oversample>
+        <interprate>1000</interprate>
+        <c>299792458.0</c>
+    </parameters>
+    <pulse name="up_chirp" type="file" filename="up_chirp.h5">
+        <power>10</power>
+        <carrier>2350000000.0</carrier>
+    </pulse>
+    <timing name="clock" synconpulse="false">
+        <frequency>125000000.0</frequency>
+        <freq_offset>0</freq_offset>
+        <random_freq_offset>0</random_freq_offset>
+        <phase_offset>0</phase_offset>
+        <random_phase_offset>0</random_phase_offset>
+    </timing>
+    <antenna name="tx_rx_antenna" pattern="isotropic">
+        <efficiency>1</efficiency>
+    </antenna>
+    <platform name="tx_platform">
+        <motionpath interpolation="linear">
+            <positionwaypoint>
+                <x>0.0</x>
+                <y>0.25</y>
+                <altitude>150.0</altitude>
+                <time>0</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>0.0</x>
+                <y>30.25</y>
+                <altitude>[150.         177.73850114 172.82058481 141.46512081 121.36311641
+ 136.80908568 169.78005061 181.39069451 158.18373845 128.1499344
+ 127.4069416  157.20366179 182.43350498 173.4264437  141.26920211
+ 124.60725025 143.63994904 176.07455815 183.66425674 157.73843313
+ 129.52446979 132.97362695 164.34433139 186.65626983 173.71298581
+ 141.28701419 128.34373017 150.65566861 182.02637305 185.47553021
+ 157.26156687 131.33574326 138.92544185 171.36005096 190.39274975
+ 173.73079789 141.5735563  132.56649502 157.79633821 187.5930584
+ 186.8500656  156.81626155 133.60930549 145.21994939 178.19091432
+ 193.63688359 173.53487919 142.17941519 137.26149886 165.        ]</altitude>
+                <time>1</time>
+            </positionwaypoint>
+        </motionpath>
+        <fixedrotation>
+            <startazimuth>6.283185307179586</startazimuth>
+            <azimuthrate>0</azimuthrate>
+            <startelevation>6.283185307179586</startelevation>
+            <elevationrate>0</elevationrate>
+        </fixedrotation>
+        <transmitter name="transmitter" type="pulsed" antenna="tx_rx_antenna" pulse="up_chirp" timing="clock">
+            <prf>1250</prf>
+        </transmitter>
+    </platform>
+    <platform name="rx_platform">
+        <motionpath interpolation="linear">
+            <positionwaypoint>
+                <x>0.0</x>
+                <y>-0.25</y>
+                <altitude>150.0</altitude>
+                <time>0</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>0.0</x>
+                <y>29.75</y>
+                <altitude>[150.         177.73850114 172.82058481 141.46512081 121.36311641
+ 136.80908568 169.78005061 181.39069451 158.18373845 128.1499344
+ 127.4069416  157.20366179 182.43350498 173.4264437  141.26920211
+ 124.60725025 143.63994904 176.07455815 183.66425674 157.73843313
+ 129.52446979 132.97362695 164.34433139 186.65626983 173.71298581
+ 141.28701419 128.34373017 150.65566861 182.02637305 185.47553021
+ 157.26156687 131.33574326 138.92544185 171.36005096 190.39274975
+ 173.73079789 141.5735563  132.56649502 157.79633821 187.5930584
+ 186.8500656  156.81626155 133.60930549 145.21994939 178.19091432
+ 193.63688359 173.53487919 142.17941519 137.26149886 165.        ]</altitude>
+                <time>1</time>
+            </positionwaypoint>
+        </motionpath>
+        <fixedrotation>
+            <startazimuth>6.283185307179586</startazimuth>
+            <azimuthrate>0</azimuthrate>
+            <startelevation>6.283185307179586</startelevation>
+            <elevationrate>0</elevationrate>
+        </fixedrotation>
+        <receiver name="receiver" nodirect="true" antenna="tx_rx_antenna" nopropagationloss="false" timing="clock">
+            <window_skip>0</window_skip>
+            <window_length>0.0008</window_length>
+            <prf>1250</prf>
+            <noise_temp>290</noise_temp>
+        </receiver>
+    </platform>
+    <platform name="target_platform">
+        <motionpath interpolation="linear">
+            <positionwaypoint>
+                <x>10</x>
+                <y>10</y>
+                <altitude>10</altitude>
+                <time>0</time>
+            </positionwaypoint>
+        </motionpath>
+        <fixedrotation>
+            <startazimuth>6.283185307179586</startazimuth>
+            <azimuthrate>0</azimuthrate>
+            <startelevation>6.283185307179586</startelevation>
+            <elevationrate>0</elevationrate>
+        </fixedrotation>
+        <target name="B">
+            <rcs type="isotropic">
+                <value>100</value>
+            </rcs>
+        </target>
+    </platform>
+</simulation>
