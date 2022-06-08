@@ -220,6 +220,7 @@ class FersXMLGenerator:
 
         for i in range (0, int(np.size(x))):
             add_point(path, x[i], y[i], z[i], t[i])
+            print(y[i])
 
         target = SubElement(platform, 'target')
         target.set('name', name)

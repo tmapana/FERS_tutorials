@@ -33,7 +33,8 @@
             </positionwaypoint>
             <positionwaypoint>
                 <x>0.0</x>
-                <y>[30.25      30.2520008 30.2540016 ... 35.2459984 35.2479992 35.25     ]</y>
+                <y>[500.25       595.33231592 441.34949599 ... 559.15050401 405.16768408
+ 500.25      ]</y>
                 <altitude>1.0</altitude>
                 <time>1</time>
             </positionwaypoint>
@@ -58,7 +59,8 @@
             </positionwaypoint>
             <positionwaypoint>
                 <x>0.0</x>
-                <y>[29.75      29.7520008 29.7540016 ... 34.7459984 34.7479992 34.75     ]</y>
+                <y>[499.75       594.83231592 440.84949599 ... 558.65050401 404.66768408
+ 499.75      ]</y>
                 <altitude>1.0</altitude>
                 <time>1</time>
             </positionwaypoint>
@@ -79,9 +81,9 @@
     <platform name="target_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>1</x>
-                <y>50</y>
-                <altitude>1</altitude>
+                <x>10</x>
+                <y>500</y>
+                <altitude>10</altitude>
                 <time>0</time>
             </positionwaypoint>
         </motionpath>
