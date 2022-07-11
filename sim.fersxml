@@ -29,14 +29,25 @@
                 <x>0.0</x>
                 <y>0.25</y>
                 <altitude>1.0</altitude>
-                <time>0</time>
+                <time>0.0</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>150.0</x>
+                <y>15.25</y>
+                <altitude>1.0</altitude>
+                <time>0.5</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>150.0</x>
+                <y>15.25</y>
+                <altitude>1.0</altitude>
+                <time>0.5</time>
             </positionwaypoint>
             <positionwaypoint>
                 <x>0.0</x>
-                <y>[500.25       595.33231592 441.34949599 ... 559.15050401 405.16768408
- 500.25      ]</y>
+                <y>30.25</y>
                 <altitude>1.0</altitude>
-                <time>1</time>
+                <time>1.0</time>
             </positionwaypoint>
         </motionpath>
         <fixedrotation>
@@ -55,14 +66,25 @@
                 <x>0.0</x>
                 <y>-0.25</y>
                 <altitude>1.0</altitude>
-                <time>0</time>
+                <time>0.0</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>150.0</x>
+                <y>14.75</y>
+                <altitude>1.0</altitude>
+                <time>0.5</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>150.0</x>
+                <y>14.75</y>
+                <altitude>1.0</altitude>
+                <time>0.5</time>
             </positionwaypoint>
             <positionwaypoint>
                 <x>0.0</x>
-                <y>[499.75       594.83231592 440.84949599 ... 558.65050401 404.66768408
- 499.75      ]</y>
+                <y>29.75</y>
                 <altitude>1.0</altitude>
-                <time>1</time>
+                <time>1.0</time>
             </positionwaypoint>
         </motionpath>
         <fixedrotation>
@@ -81,9 +103,9 @@
     <platform name="target_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>10</x>
-                <y>500</y>
-                <altitude>10</altitude>
+                <x>500</x>
+                <y>0</y>
+                <altitude>1</altitude>
                 <time>0</time>
             </positionwaypoint>
         </motionpath>
