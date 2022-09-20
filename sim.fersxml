@@ -27,61 +27,61 @@
     <platform name="tx_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>0.0</x>
+                <x>8.0</x>
                 <y>0.25</y>
                 <altitude>1.0</altitude>
                 <time>0.0</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-2.0</x>
                 <y>3.5833333333333335</y>
                 <altitude>1.0</altitude>
                 <time>0.1111111111111111</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>6.0</x>
                 <y>6.916666666666667</y>
                 <altitude>1.0</altitude>
                 <time>0.2222222222222222</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-4.0</x>
                 <y>10.25</y>
                 <altitude>1.0</altitude>
                 <time>0.3333333333333333</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-9.0</x>
                 <y>13.583333333333334</y>
                 <altitude>1.0</altitude>
                 <time>0.4444444444444444</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-3.0</x>
                 <y>16.916666666666668</y>
                 <altitude>1.0</altitude>
                 <time>0.5555555555555556</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-7.0</x>
                 <y>20.25</y>
                 <altitude>1.0</altitude>
                 <time>0.6666666666666666</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-8.0</x>
                 <y>23.583333333333336</y>
                 <altitude>1.0</altitude>
                 <time>0.7777777777777777</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>1.0</x>
                 <y>26.916666666666668</y>
                 <altitude>1.0</altitude>
                 <time>0.8888888888888888</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-10.0</x>
                 <y>30.25</y>
                 <altitude>1.0</altitude>
                 <time>1.0</time>
@@ -100,61 +100,61 @@
     <platform name="rx_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>0.0</x>
+                <x>8.0</x>
                 <y>-0.25</y>
                 <altitude>1.0</altitude>
                 <time>0.0</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-2.0</x>
                 <y>3.0833333333333335</y>
                 <altitude>1.0</altitude>
                 <time>0.1111111111111111</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>6.0</x>
                 <y>6.416666666666667</y>
                 <altitude>1.0</altitude>
                 <time>0.2222222222222222</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-4.0</x>
                 <y>9.75</y>
                 <altitude>1.0</altitude>
                 <time>0.3333333333333333</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-9.0</x>
                 <y>13.083333333333334</y>
                 <altitude>1.0</altitude>
                 <time>0.4444444444444444</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-3.0</x>
                 <y>16.416666666666668</y>
                 <altitude>1.0</altitude>
                 <time>0.5555555555555556</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-7.0</x>
                 <y>19.75</y>
                 <altitude>1.0</altitude>
                 <time>0.6666666666666666</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-8.0</x>
                 <y>23.083333333333336</y>
                 <altitude>1.0</altitude>
                 <time>0.7777777777777777</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>1.0</x>
                 <y>26.416666666666668</y>
                 <altitude>1.0</altitude>
                 <time>0.8888888888888888</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>0.0</x>
+                <x>-10.0</x>
                 <y>29.75</y>
                 <altitude>1.0</altitude>
                 <time>1.0</time>
@@ -166,7 +166,7 @@
             <startelevation>6.283185307179586</startelevation>
             <elevationrate>0</elevationrate>
         </fixedrotation>
-        <receiver name="receiver" nodirect="false" antenna="tx_rx_antenna" nopropagationloss="false" timing="clock">
+        <receiver name="receiver" nodirect="true" antenna="tx_rx_antenna" nopropagationloss="false" timing="clock">
             <window_skip>0</window_skip>
             <window_length>0.0008</window_length>
             <prf>1250</prf>
@@ -177,7 +177,7 @@
         <motionpath interpolation="linear">
             <positionwaypoint>
                 <x>1000</x>
-                <y>15</y>
+                <y>0</y>
                 <altitude>0</altitude>
                 <time>0</time>
             </positionwaypoint>
@@ -190,7 +190,7 @@
         </fixedrotation>
         <target name="B">
             <rcs type="isotropic">
-                <value>10000</value>
+                <value>100</value>
             </rcs>
         </target>
     </platform>

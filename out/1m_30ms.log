@@ -5,31 +5,31 @@ MESSAGES:
 Input file                     : /home/tlotliso/Documents/FERS/FERS_tutorials/out/1m_30ms.rng
 Output file                    : /home/tlotliso/Documents/FERS/FERS_tutorials/out/1m_30ms.azi
 Appending output file          : N
-Nominal azimuth resolution     : 0.100 m
+Nominal azimuth resolution     : 1.567 m
 Num looks                      : 1
 Look overlap fraction          : 0.000
-Doppler bandwidth processed    : 300.000 Hz
-Master ref func (time domain)  : 49975 pts (far swath)
-FFT size                       : 65536 pts
-Look size in freq domain       : 15729 pts
+Doppler bandwidth processed    : 19.142 Hz
+Master ref func (time domain)  : 3047 pts (far swath)
+FFT size                       : 8192 pts
+Look size in freq domain       : 125 pts
 Input azimuth samples          : 1250
 Output azimuth samples         : 1250
 Input azimuth sample spacing   : 0.0240 m
 Output azimuth sample spacing  : 0.0240 m
-Range samples to process       : 51 from 51 (samples 0 - 50)
+Range samples to process       : 2047 from 2047 (samples 0 - 2046)
 Processed near slant range     : 0.000 m
-Processed far slant range      : 1866.381 m
+Processed far slant range      : 1872.785 m
 Range bins per focus segment   : 1
-Range curv at mid / far swath  : 1.28 / 2.57 bins
+Range curv at mid / far swath  : 0.20 / 0.39 bins
 Range curvature correction     : 16 pt interpolation
 Detection method               : none (complex output)
 Input data type                : float (4 bytes I, 4 bytes Q)
 Output data type               : float (+-3.4x10^(+-28))
 DC offset for output           : 0
 Multiplicative scale factor    : 1.0000e+00
-Range curv array allocated     : 77070336 bytes (64 rng bin(s))
-Extra zeros used at far rng    : 24 (by rng curv correction)
-Max value after processing     : 2.476073e-02 (no DC offset)
-Max at output az / rng pixel   : 482 / 49
+Range curv array allocated     : 9502720 bytes (64 rng bin(s))
+Extra zeros used at far rng    : 10 (by rng curv correction)
+Max value after processing     : 1.226499e-04 (no DC offset)
+Max at output az / rng pixel   : 846 / 2006
 
-AZ COMPRESSION DONE - in 0 secs (0.00 min)
+AZ COMPRESSION DONE - in 2 secs (0.03 min)
