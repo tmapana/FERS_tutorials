@@ -1,0 +1,37 @@
+miloSAR azimuth compression command file (azcom)
+$ProgramVersion (jmh)         => 1.1
+
+$ScreenUpdateRate             => 1
+$LogFileName                  => /c/Users/tpmap/OneDrive/Documents/FERS_tutorials/out/sar/1m_30ms.log
+$InputStartSampleDelay        => 0
+$CarrierFreq [Hz]             => 2437500000.0
+$InputPRF [Hz]                => 1250
+$NomGroundSpeed [m/s]         => 30
+$InputFileAzPts               => 1250
+$StartProcessAzPt             => 0
+$AzPtsToProcess               => 1250
+$InputFileRngBins             => 4096
+$StartProcessRngBin           => 0
+$RngBinsToProcess             => 4096
+$InputDCOffsetI               => 0.0
+$InputDCOffsetQ               => 0.0
+$InvFFTSizeReduc [pow of 2]   => 1
+$InputFileName                => /c/Users/tpmap/OneDrive/Documents/FERS_tutorials/out/sar/1m_30ms.rng
+$OutputFileName               => /c/Users/tpmap/OneDrive/Documents/FERS_tutorials/out/sar/1m_30ms.azi
+$AppendExistOutFileFlg [Y/N]  => N
+$RngFocSegments               => -1
+$RefFuncSign [+-1]            => 1
+$A2DFreq [Hz]                 => 163840000.0
+$NomAzRes [m]                 => 1.567209524471628
+$WinConstTime [0.0-1.0]       => 0.08
+$NumLooks                     => 1
+$LookOverlapFrac [0.0-1.0]    => 0.0
+$WinConstFreq [0.0-1.0]       => 0.08
+$RngCurvInterpSize            => 4
+$RngCurvBatchSize             => 16
+$PostSumRatio                 => 1
+$DetectMethod                 => 0
+$InputDataType                => 3
+$OutputDataType               => 3
+$Scale                        => 1
+$ReportMax [1/0]              => 1

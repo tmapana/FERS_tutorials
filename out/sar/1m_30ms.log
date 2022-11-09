@@ -1,0 +1,35 @@
+Prog: AZCOM (Ver. 1.1) Log File
+Code: J.M. Horrell (C) UCT Radar Remote Sensing Group 1999
+
+MESSAGES:
+Input file                     : /c/Users/tpmap/OneDrive/Documents/FERS_tutorials/out/sar/1m_30ms.rng
+Output file                    : /c/Users/tpmap/OneDrive/Documents/FERS_tutorials/out/sar/1m_30ms.azi
+Appending output file          : N
+Nominal azimuth resolution     : 1.567 m
+Num looks                      : 1
+Look overlap fraction          : 0.000
+Doppler bandwidth processed    : 19.142 Hz
+Master ref func (time domain)  : 6128 pts (far swath)
+FFT size                       : 8192 pts
+Look size in freq domain       : 125 pts
+Input azimuth samples          : 1250
+Output azimuth samples         : 1250
+Input azimuth sample spacing   : 0.0240 m
+Output azimuth sample spacing  : 0.0240 m
+Range samples to process       : 4096 from 4096 (samples 0 - 4095)
+Processed near slant range     : 0.000 m
+Processed far slant range      : 3747.400 m
+Range bins per focus segment   : 1
+Range curv at mid / far swath  : 0.39 / 0.79 bins
+Range curvature correction     : 4 pt interpolation
+Detection method               : none (complex output)
+Input data type                : float (4 bytes I, 4 bytes Q)
+Output data type               : float (+-3.4x10^(+-28))
+DC offset for output           : 0
+Multiplicative scale factor    : 1.0000e+00
+Range curv array allocated     : 2424832 bytes (16 rng bin(s))
+Extra zeros used at far rng    : 3 (by rng curv correction)
+Max value after processing     : -1.426687e+02 (no DC offset)
+Max at output az / rng pixel   : 666 / 2062
+
+AZ COMPRESSION DONE - in 30 secs (0.50 min)

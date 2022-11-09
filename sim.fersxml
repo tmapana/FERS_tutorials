@@ -12,7 +12,7 @@
     </parameters>
     <pulse name="up_chirp" type="file" filename="up_chirp.h5">
         <power>10</power>
-        <carrier>2450000000.0</carrier>
+        <carrier>2437500000.0</carrier>
     </pulse>
     <timing name="clock" synconpulse="false">
         <frequency>125000000.0</frequency>
@@ -27,61 +27,121 @@
     <platform name="tx_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>-1.0</x>
+                <x>0.0</x>
                 <y>0.25</y>
                 <altitude>1.0</altitude>
                 <time>0.0</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
-                <y>3.5833333333333335</y>
+                <x>2.0</x>
+                <y>1.8289473684210527</y>
                 <altitude>1.0</altitude>
-                <time>0.1111111111111111</time>
+                <time>0.05263157894736842</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>9.0</x>
-                <y>6.916666666666667</y>
+                <x>4.0</x>
+                <y>3.4078947368421053</y>
                 <altitude>1.0</altitude>
-                <time>0.2222222222222222</time>
+                <time>0.10526315789473684</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-3.0</x>
-                <y>10.25</y>
+                <x>6.0</x>
+                <y>4.9868421052631575</y>
                 <altitude>1.0</altitude>
-                <time>0.3333333333333333</time>
+                <time>0.15789473684210525</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
-                <y>13.583333333333334</y>
+                <x>8.0</x>
+                <y>6.565789473684211</y>
                 <altitude>1.0</altitude>
-                <time>0.4444444444444444</time>
+                <time>0.21052631578947367</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>9.0</x>
-                <y>16.916666666666668</y>
+                <x>10.0</x>
+                <y>8.144736842105264</y>
                 <altitude>1.0</altitude>
-                <time>0.5555555555555556</time>
+                <time>0.2631578947368421</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>7.0</x>
-                <y>20.25</y>
+                <x>12.0</x>
+                <y>9.723684210526315</y>
                 <altitude>1.0</altitude>
-                <time>0.6666666666666666</time>
+                <time>0.3157894736842105</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>3.0</x>
-                <y>23.583333333333336</y>
+                <x>14.0</x>
+                <y>11.302631578947368</y>
                 <altitude>1.0</altitude>
-                <time>0.7777777777777777</time>
+                <time>0.3684210526315789</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-7.0</x>
-                <y>26.916666666666668</y>
+                <x>16.0</x>
+                <y>12.881578947368421</y>
                 <altitude>1.0</altitude>
-                <time>0.8888888888888888</time>
+                <time>0.42105263157894735</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
+                <x>18.0</x>
+                <y>14.460526315789474</y>
+                <altitude>1.0</altitude>
+                <time>0.47368421052631576</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>20.0</x>
+                <y>16.039473684210527</y>
+                <altitude>1.0</altitude>
+                <time>0.5263157894736842</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>18.0</x>
+                <y>17.61842105263158</y>
+                <altitude>1.0</altitude>
+                <time>0.5789473684210527</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>16.0</x>
+                <y>19.19736842105263</y>
+                <altitude>1.0</altitude>
+                <time>0.631578947368421</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>14.0</x>
+                <y>20.776315789473685</y>
+                <altitude>1.0</altitude>
+                <time>0.6842105263157894</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>12.0</x>
+                <y>22.355263157894736</y>
+                <altitude>1.0</altitude>
+                <time>0.7368421052631579</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>10.0</x>
+                <y>23.93421052631579</y>
+                <altitude>1.0</altitude>
+                <time>0.7894736842105263</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>8.0</x>
+                <y>25.513157894736842</y>
+                <altitude>1.0</altitude>
+                <time>0.8421052631578947</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>6.0</x>
+                <y>27.092105263157894</y>
+                <altitude>1.0</altitude>
+                <time>0.894736842105263</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>4.0</x>
+                <y>28.67105263157895</y>
+                <altitude>1.0</altitude>
+                <time>0.9473684210526315</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>2.0</x>
                 <y>30.25</y>
                 <altitude>1.0</altitude>
                 <time>1.0</time>
@@ -100,61 +160,121 @@
     <platform name="rx_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>-1.0</x>
+                <x>0.0</x>
                 <y>-0.25</y>
                 <altitude>1.0</altitude>
                 <time>0.0</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
-                <y>3.0833333333333335</y>
+                <x>2.0</x>
+                <y>1.3289473684210527</y>
                 <altitude>1.0</altitude>
-                <time>0.1111111111111111</time>
+                <time>0.05263157894736842</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>9.0</x>
-                <y>6.416666666666667</y>
+                <x>4.0</x>
+                <y>2.9078947368421053</y>
                 <altitude>1.0</altitude>
-                <time>0.2222222222222222</time>
+                <time>0.10526315789473684</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-3.0</x>
-                <y>9.75</y>
+                <x>6.0</x>
+                <y>4.4868421052631575</y>
                 <altitude>1.0</altitude>
-                <time>0.3333333333333333</time>
+                <time>0.15789473684210525</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
-                <y>13.083333333333334</y>
+                <x>8.0</x>
+                <y>6.065789473684211</y>
                 <altitude>1.0</altitude>
-                <time>0.4444444444444444</time>
+                <time>0.21052631578947367</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>9.0</x>
-                <y>16.416666666666668</y>
+                <x>10.0</x>
+                <y>7.644736842105264</y>
                 <altitude>1.0</altitude>
-                <time>0.5555555555555556</time>
+                <time>0.2631578947368421</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>7.0</x>
-                <y>19.75</y>
+                <x>12.0</x>
+                <y>9.223684210526315</y>
                 <altitude>1.0</altitude>
-                <time>0.6666666666666666</time>
+                <time>0.3157894736842105</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>3.0</x>
-                <y>23.083333333333336</y>
+                <x>14.0</x>
+                <y>10.802631578947368</y>
                 <altitude>1.0</altitude>
-                <time>0.7777777777777777</time>
+                <time>0.3684210526315789</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-7.0</x>
-                <y>26.416666666666668</y>
+                <x>16.0</x>
+                <y>12.381578947368421</y>
                 <altitude>1.0</altitude>
-                <time>0.8888888888888888</time>
+                <time>0.42105263157894735</time>
             </positionwaypoint>
             <positionwaypoint>
-                <x>-2.0</x>
+                <x>18.0</x>
+                <y>13.960526315789474</y>
+                <altitude>1.0</altitude>
+                <time>0.47368421052631576</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>20.0</x>
+                <y>15.539473684210527</y>
+                <altitude>1.0</altitude>
+                <time>0.5263157894736842</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>18.0</x>
+                <y>17.11842105263158</y>
+                <altitude>1.0</altitude>
+                <time>0.5789473684210527</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>16.0</x>
+                <y>18.69736842105263</y>
+                <altitude>1.0</altitude>
+                <time>0.631578947368421</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>14.0</x>
+                <y>20.276315789473685</y>
+                <altitude>1.0</altitude>
+                <time>0.6842105263157894</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>12.0</x>
+                <y>21.855263157894736</y>
+                <altitude>1.0</altitude>
+                <time>0.7368421052631579</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>10.0</x>
+                <y>23.43421052631579</y>
+                <altitude>1.0</altitude>
+                <time>0.7894736842105263</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>8.0</x>
+                <y>25.013157894736842</y>
+                <altitude>1.0</altitude>
+                <time>0.8421052631578947</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>6.0</x>
+                <y>26.592105263157894</y>
+                <altitude>1.0</altitude>
+                <time>0.894736842105263</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>4.0</x>
+                <y>28.17105263157895</y>
+                <altitude>1.0</altitude>
+                <time>0.9473684210526315</time>
+            </positionwaypoint>
+            <positionwaypoint>
+                <x>2.0</x>
                 <y>29.75</y>
                 <altitude>1.0</altitude>
                 <time>1.0</time>
@@ -166,7 +286,7 @@
             <startelevation>6.283185307179586</startelevation>
             <elevationrate>0</elevationrate>
         </fixedrotation>
-        <receiver name="receiver" nodirect="true" antenna="tx_rx_antenna" nopropagationloss="false" timing="clock">
+        <receiver name="receiver" nodirect="false" antenna="tx_rx_antenna" nopropagationloss="false" timing="clock">
             <window_skip>0</window_skip>
             <window_length>0.0008</window_length>
             <prf>1250</prf>
@@ -176,7 +296,7 @@
     <platform name="target_platform">
         <motionpath interpolation="linear">
             <positionwaypoint>
-                <x>200</x>
+                <x>1000</x>
                 <y>15</y>
                 <altitude>0.1</altitude>
                 <time>0</time>
@@ -190,49 +310,7 @@
         </fixedrotation>
         <target name="A">
             <rcs type="isotropic">
-                <value>50</value>
-            </rcs>
-        </target>
-    </platform>
-    <platform name="target_platform">
-        <motionpath interpolation="linear">
-            <positionwaypoint>
-                <x>300</x>
-                <y>15</y>
-                <altitude>0.1</altitude>
-                <time>0</time>
-            </positionwaypoint>
-        </motionpath>
-        <fixedrotation>
-            <startazimuth>6.283185307179586</startazimuth>
-            <azimuthrate>0</azimuthrate>
-            <startelevation>6.283185307179586</startelevation>
-            <elevationrate>0</elevationrate>
-        </fixedrotation>
-        <target name="B">
-            <rcs type="isotropic">
-                <value>50</value>
-            </rcs>
-        </target>
-    </platform>
-    <platform name="target_platform">
-        <motionpath interpolation="linear">
-            <positionwaypoint>
-                <x>400</x>
-                <y>15</y>
-                <altitude>0.1</altitude>
-                <time>0</time>
-            </positionwaypoint>
-        </motionpath>
-        <fixedrotation>
-            <startazimuth>6.283185307179586</startazimuth>
-            <azimuthrate>0</azimuthrate>
-            <startelevation>6.283185307179586</startelevation>
-            <elevationrate>0</elevationrate>
-        </fixedrotation>
-        <target name="C">
-            <rcs type="isotropic">
-                <value>50</value>
+                <value>10000</value>
             </rcs>
         </target>
     </platform>

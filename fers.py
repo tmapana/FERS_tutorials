@@ -46,21 +46,22 @@ def read_hdf5(filename):
         # print(attr, h5[dataset_list[0]].attrs[attr])
 
     # scale = np.float64(h5[dataset_list[0]].attrs['fullscale'])
-    scale = np.float64(h5[dataset_list[0]].attrs['fullscale'])
+    scale = np.float32(h5[dataset_list[0]].attrs['fullscale'])  #changed line 48
+    
     # rate = np.float64(h5[dataset_list[0]].attrs['rate'])
     # time = np.float64(h5[dataset_list[0]].attrs['time'])
 
     n_pulses = int(np.floor(np.size(dataset_list)/2))
     ns_pulse = int(np.size(h5[dataset_list[0]]))
 
-    i_matrix = np.zeros((n_pulses, ns_pulse), dtype='float64')  #changed = float64
-    q_matrix = np.zeros((n_pulses, ns_pulse), dtype='float64')  #changed
+    i_matrix = np.zeros((n_pulses, ns_pulse), dtype='float32')  #changed = float64
+    q_matrix = np.zeros((n_pulses, ns_pulse), dtype='float32')  #changed
 
     for i in range(0, n_pulses):
-        i_matrix[i, :] = np.array(h5[dataset_list[2*i + 0]], dtype='float64')   #changed
-        q_matrix[i, :] = np.array(h5[dataset_list[2*i + 1]], dtype='float64')   #changed
+        i_matrix[i, :] = np.array(h5[dataset_list[2*i + 0]], dtype='float32')   #changed
+        q_matrix[i, :] = np.array(h5[dataset_list[2*i + 1]], dtype='float32')   #changed
 
-    dataset = np.array(i_matrix + 1j*q_matrix).astype('complex128')
+    dataset = np.array(i_matrix + 1j*q_matrix).astype('complex64')
 
     dataset *= scale
     
